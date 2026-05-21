@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "ansible-lint" %}
-{% set version = "26.3.0" %}
+{% set version = "26.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: dbcf3796d715ccef742a89dfcb21263649a2c2be8d3479ea98da104efa406717
+  sha256: 29e0438f8af685a4fec96f9ea3404a3beb50d2911bc8df43f283256954ceea5b
 
 build:
   number: 0
