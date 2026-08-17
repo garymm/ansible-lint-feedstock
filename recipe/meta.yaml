@@ -1,4 +1,4 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.12" %}
 {% set name = "ansible-lint" %}
 {% set version = "26.8.0" %}
 
